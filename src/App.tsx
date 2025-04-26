@@ -2,7 +2,7 @@ import "./index.css";
 import { APITester } from "./APITester";
 
 import logo from "./docker.svg";
-import reactLogo from "./react.svg";
+import { PageViews } from "./PageViews";
 
 export function App() {
   return (
@@ -18,6 +18,7 @@ export function App() {
       <h1 className="text-5xl font-bold my-4 leading-tight">Bun + Docker</h1>
       <p>Bun app hosted in a Docker container.</p>
       <APITester />
+      <PageViews />
     </div>
   );
 }
