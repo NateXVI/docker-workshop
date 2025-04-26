@@ -1,0 +1,9 @@
+services:
+  my-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      PORT: 4321
+    ports:
+      - "3000:4321"
