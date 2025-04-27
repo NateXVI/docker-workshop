@@ -28,7 +28,6 @@ const server = serve({
           WHERE name = 'index.html'
           RETURNING count;
         `;
-        console.log(views);
         return Response.json({ count: views.count });
       },
     },
