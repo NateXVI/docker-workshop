@@ -12,6 +12,16 @@ curl -fsSL https://bun.sh/install | bash
 powershell -c "irm bun.sh/install.ps1 | iex"
 ```
 
+If you want to uninstall Bun later, you can run:
+
+```bash
+# Linux & macOS
+rm -rf ~/.bun
+
+# Windows
+powershell -c ~\.bun\uninstall.ps1
+```
+
 ### Install dependencies
 
 ```bash
