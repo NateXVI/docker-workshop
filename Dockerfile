@@ -2,9 +2,6 @@ FROM oven/bun:1
 
 WORKDIR /app
 
-# Add bun to PATH
-ENV PATH="/root/.bun/bin:${PATH}"
-
 # Install dependencies
 COPY package.json .
 COPY bun.lock .
